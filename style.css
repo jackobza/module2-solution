@@ -1,0 +1,59 @@
+header{
+  text-align: center;
+  font-size: 24pt;
+  font-weight: 400;
+  font-family: impact ,sans-serif;
+}
+section{
+  font-family: arial ,sans-serif;
+  background-color: grey;
+  float: left;
+  border: 2px solid black;
+  box-sizing: border-box;
+  font-size: 16pt;
+  margin: 1%;
+}
+@media(min-width: 992px )
+  {
+    body>section{
+      width: 31%;
+    }
+  }
+  @media(min-width: 768px ) and (max-width:991px)
+    {
+      #section1 {
+        width: 47%;
+      }
+      #section2{
+        width: 47%;
+      }
+      #section3{
+        width: 96%;
+      }
+    }
+    @media(max-width: 992px )
+      {
+        body>section{
+          width: 100%;
+        }
+      }
+.titles{
+  border-left:2px solid black;
+  border-bottom:  2px solid black;
+  font-family: impact ,sans-serif;
+  font-size: 20pt;
+  color: black;
+  float: right;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+#chicken{
+  background-color: red;
+}
+#fish{
+  background-color: yellow;
+}
+#sheep{
+  background-color: orange;
+}
